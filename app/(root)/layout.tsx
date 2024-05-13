@@ -1,15 +1,6 @@
 import { ReactNode } from 'react';
 
-import StreamVideoProvider from '../providers/StreamClientProvider';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: "Yoom Streaming",
-  description: "Streaming got cooler",
-  icons: {
-    icon: './icons/logo/svg'
-  }
-};
+import StreamVideoProvider from '@/providers/StreamClientProvider';
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (

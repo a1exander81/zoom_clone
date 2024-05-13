@@ -1,13 +1,9 @@
-import { SignUp } from '@clerk/nextjs'
-import React from 'react'
+import { SignUp } from '@clerk/nextjs';
 
-const SignUppage = () => {
+export default function SignUpPage() {
   return (
-    <main className="flex h-screen w-full items-center
-    justify-center">
-        <SignUp />
+    <main className="flex h-screen w-full items-center justify-center">
+      <SignUp />
     </main>
-  )
+  );
 }
-
-export default SignUppage
